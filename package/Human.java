@@ -9,6 +9,13 @@ public class Human {
         
     }
 
+    public Human(String name, String eyeColor, int heightInInches, int age){
+        this.age = age;
+        this.eyeColor = eyeColor;
+        this.heightInInches = heightInInches;
+        this.name = name;
+    }
+
 public void speak(){
     System.out.println("Hello, my name is " + name);
     System.out.println("I am " + age + " years old");
