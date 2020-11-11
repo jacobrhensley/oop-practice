@@ -13,7 +13,7 @@ public class LoopsPractice {
     public static void printCategories(String str){
 
         String remainingText = str;
-        int currentIndex = remainingText.indexOf("category:");
+        int currentIndex = 0;
 
         while(currentIndex != -1){
             currentIndex = remainingText.indexOf("category:");
